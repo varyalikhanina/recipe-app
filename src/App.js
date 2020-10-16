@@ -37,7 +37,7 @@ function App() {
       <h1 className="app__title">Food Recipes</h1>
       <p className="app__subtitle">Search your favourite food recipes by typing a dish name or an ingredient you want to use.</p>
       <form onSubmit={getSearch} className="search__form">
-        <input type="text" className="search__bar" value={search} onChange={updateSearch} placeholder="Type something, e.g. 'Pizza'"/>
+        <input type="text" className="search__bar" value={search} onChange={updateSearch} placeholder="Type something, e.g. 'Burger'"/>
         <button type="submit" className="search__button">Go!</button>
       </form>
       <div className="recipes">
